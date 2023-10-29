@@ -1,5 +1,6 @@
 package br.com.felipeteixeira.tutorialmod;
 
+import br.com.felipeteixeira.tutorialmod.block.ModBlocks;
 import br.com.felipeteixeira.tutorialmod.item.ModItemGroups;
 import br.com.felipeteixeira.tutorialmod.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -19,6 +20,7 @@ public class TutorialMod implements ModInitializer {
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		//LOGGER.info("Hello Fabric world!");
 	}
 }
