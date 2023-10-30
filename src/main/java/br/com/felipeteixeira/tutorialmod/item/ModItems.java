@@ -16,6 +16,7 @@ import static br.com.felipeteixeira.tutorialmod.block.ModBlocks.*;
 // Uma helper class que registrará todos os itens
 public class ModItems {
     public static final Item RUBY = registerItem("ruby", new Item(new FabricItemSettings()));
+    public static final Item COAL_ = registerItem("coal_", new Item(new FabricItemSettings()));
     public static final Item TOMATO = registerItem("tomato", new Item(new FabricItemSettings().food(ModFoodComponents.TOMATO)));
     public static final Item RAW_RUBY = registerItem("raw_ruby", new Item(new FabricItemSettings()));
 
@@ -34,12 +35,11 @@ public class ModItems {
         entries.add(RUBY_ORE);
         entries.add(METAL_DETECTOR);
         entries.add(SOUND_BLOCK);
+        entries.add(COAL_);
 
     }
     private static Item registerItem(String name, Item item){
-        return Registry.register(Registries.ITEM,
-                new Identifier(TutorialMod.MOD_ID, name),
-                item);
+        return Registry.register(Registries.ITEM, new Identifier(TutorialMod.MOD_ID, name), item);
     }
     public static void registerModItems(){
         TutorialMod.LOGGER.info("Registering Mod items for " + TutorialMod.MOD_ID);

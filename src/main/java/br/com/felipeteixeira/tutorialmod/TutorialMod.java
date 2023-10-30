@@ -3,9 +3,9 @@ package br.com.felipeteixeira.tutorialmod;
 import br.com.felipeteixeira.tutorialmod.block.ModBlocks;
 import br.com.felipeteixeira.tutorialmod.item.ModItemGroups;
 import br.com.felipeteixeira.tutorialmod.item.ModItems;
-import br.com.felipeteixeira.tutorialmod.item.custom.MetalDetectorItem;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -22,6 +22,7 @@ public class TutorialMod implements ModInitializer {
 		ModItemGroups.registerItemGroups();
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+		FuelRegistry.INSTANCE.add(ModItems.COAL_, 100);
 		//LOGGER.info("Hello Fabric world!");
 	}
 }
