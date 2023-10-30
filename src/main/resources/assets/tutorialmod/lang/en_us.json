@@ -13,5 +13,7 @@
   "block.tutorialmod.end_ruby_ore": "End Ruby Ore",
   "block.tutorialmod.sound_block": "Bloco sonoro",
 
+  "tooltip.tutorialmod.metal_detector_tooltip": "Detecta ferro e diamante",
+
   "itemgroup.ruby": "Ruby Tutorial Group"
 }
