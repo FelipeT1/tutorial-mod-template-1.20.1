@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorialmod:block/deep_ruby_ore"
+    }
+  }
+}
