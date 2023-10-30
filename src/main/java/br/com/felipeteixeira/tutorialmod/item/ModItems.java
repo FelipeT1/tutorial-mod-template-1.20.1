@@ -31,6 +31,7 @@ public class ModItems {
         entries.add(NETHER_RUBY_ORE);
         entries.add(RUBY_ORE);
         entries.add(METAL_DETECTOR);
+        entries.add(SOUND_BLOCK);
     }
     private static Item registerItem(String name, Item item){
         return Registry.register(Registries.ITEM,

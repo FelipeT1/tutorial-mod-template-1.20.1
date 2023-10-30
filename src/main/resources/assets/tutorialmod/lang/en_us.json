@@ -9,6 +9,7 @@
   "block.tutorialmod.deep_ruby_ore": "Deep Ruby Ore",
   "block.tutorialmod.nether_ruby_ore": "Nether Ruby Ore",
   "block.tutorialmod.end_ruby_ore": "End Ruby Ore",
+  "block.tutorialmod.sound_block": "Bloco sonoro",
 
   "itemgroup.ruby": "Ruby Tutorial Group"
 }

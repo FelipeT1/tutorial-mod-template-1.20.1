@@ -1,6 +1,7 @@
 package br.com.felipeteixeira.tutorialmod.block;
 
 import br.com.felipeteixeira.tutorialmod.TutorialMod;
+import br.com.felipeteixeira.tutorialmod.block.custom.SoundBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
@@ -21,6 +22,9 @@ public class ModBlocks {
 
     public static final Block RAW_RUBY_BLOCK = registerBlock("raw_ruby_block",
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).sounds(BlockSoundGroup.SCULK)));
+
+    public static final Block SOUND_BLOCK = registerBlock("sound_block",
+            new SoundBlock(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).sounds(BlockSoundGroup.AMETHYST_BLOCK)));
 
     public static final Block RUBY_ORE = registerBlock("ruby_ore",
             new ExperienceDroppingBlock(FabricBlockSettings.copyOf(Blocks.STONE).strength(0.5f), UniformIntProvider.create(1,2)));
