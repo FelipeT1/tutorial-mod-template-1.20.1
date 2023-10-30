@@ -3,6 +3,7 @@ package br.com.felipeteixeira.tutorialmod;
 import br.com.felipeteixeira.tutorialmod.block.ModBlocks;
 import br.com.felipeteixeira.tutorialmod.item.ModItemGroups;
 import br.com.felipeteixeira.tutorialmod.item.ModItems;
+import br.com.felipeteixeira.tutorialmod.item.custom.MetalDetectorItem;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;

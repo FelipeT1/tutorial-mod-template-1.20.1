@@ -1,6 +1,7 @@
 {
   "item.tutorialmod.ruby": "Ruby MANEIRAO",
   "item.tutorialmod.raw_ruby": "Ruby PURO MANEIRAO",
+  "item.tutorialmod.metal_detector": "Detector de metal",
 
   "block.tutorialmod.ruby_block": "Block of ruby",
   "block.tutorialmod.raw_ruby_block": "Raw Block of ruby",
